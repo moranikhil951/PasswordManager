@@ -1,0 +1,451 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@media screen and (min-width: 769px) {
+  .container {
+    background-color: #9ba9eb;
+    min-height: 100vh;
+    padding: 30px;
+  }
+
+  .pass-gen-container {
+    background-color: #5763a5;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 10px;
+  }
+
+  .password-set-image {
+    height: 300px;
+    width: 500px;
+  }
+
+  .flexing-top-head-search-con {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .bottom-top-con {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .listed-items {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border: 1px solid #b6c3ca;
+    width: 22%;
+    padding: 10px;
+    margin: 10px;
+  }
+
+  .deleteImage {
+    width: 20px;
+    height: 20px;
+  }
+
+  .imagesDeleteButton {
+    border: none;
+    background-color: #5763a5;
+  }
+
+  .ordered-lists {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+  }
+
+  .bottom-password-box {
+    margin-left: 10px;
+  }
+
+  .Intial-flexing {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .searchWeb {
+    font-size: 15px;
+    color: white;
+  }
+
+  .searchUsenamer {
+    font-size: 13px;
+    color: white;
+  }
+
+  .searchPassword {
+    font-size: 12px;
+    color: white;
+  }
+
+  .bottom-container {
+    background-color: #5763a5;
+  }
+
+  .red {
+    background-color: red;
+  }
+  .green {
+    background-color: green;
+  }
+  .blue {
+    background-color: blue;
+  }
+  .pink {
+    background-color: pink;
+  }
+
+  .brown {
+    background-color: brown;
+  }
+
+  .initialValue {
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+  }
+
+  .appLogo {
+    height: 60px;
+    width: 120px;
+  }
+
+  .icon-input-con {
+    background-color: White;
+    display: flex;
+    flex-direction: row;
+    height: 40px;
+    align-items: center;
+  }
+
+  .logo {
+    height: 20px;
+  }
+
+  .input {
+    outline: none;
+    border: none;
+  }
+  .AddButton {
+    background-color: #0b69ff;
+
+    border: none;
+    color: White;
+    cursor: pointer;
+  }
+  .password-manager {
+    background-color: #454f84;
+    padding: 30px;
+    border-radius: 10px;
+    align-self: left;
+    text-align: end;
+  }
+  .count-color {
+    border: 1px solid #b6c3ca;
+    color: white;
+    margin: 5px;
+    padding: 3px;
+    border-radius: 5px;
+  }
+
+  .bottom-container {
+    background-color: #5763a5;
+    border-radius: 10px;
+    padding: 30px;
+  }
+  .checkedPassword {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  .starsAppear {
+    height: 10px;
+  }
+  .empty-image {
+    height: 300px;
+    width: 400px;
+  }
+  .emptystate {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .No-password {
+    font-size: 30px;
+    color: white;
+  }
+  .medium-image {
+    height: 0;
+  }
+  .heading-password {
+    color: White;
+  }
+  .top-heading {
+    text-align: left;
+  }
+  .showpassword {
+    color: white;
+  }
+  .noPasswords {
+    color: white;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    background-color: #9ba9eb;
+    min-height: 100vh;
+    padding: 10px;
+  }
+
+  .pass-gen-container {
+    background-color: #5763a5;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  .medium-image {
+  }
+
+  .password-set-image {
+    height: 0;
+  }
+
+  .flexing-top-head-search-con {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .bottom-top-con {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .listed-items {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border: 1px solid #b6c3ca;
+    width: 100%;
+    padding: 10px;
+    margin: 10px;
+  }
+
+  .deleteImage {
+    width: 20px;
+    height: 20px;
+  }
+
+  .imagesDeleteButton {
+    border: none;
+    background-color: #5763a5;
+  }
+
+  .ordered-lists {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+  }
+
+  .bottom-password-box {
+    margin-left: 10px;
+  }
+
+  .Intial-flexing {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .searchWeb {
+    font-size: 15px;
+    color: white;
+  }
+
+  .searchUsenamer {
+    font-size: 13px;
+    color: white;
+  }
+
+  .searchPassword {
+    font-size: 12px;
+    color: white;
+  }
+
+  .bottom-container {
+    background-color: #5763a5;
+  }
+
+  .red {
+    background-color: red;
+  }
+  .green {
+    background-color: green;
+  }
+  .blue {
+    background-color: blue;
+  }
+  .pink {
+    background-color: pink;
+  }
+
+  .brown {
+    background-color: brown;
+  }
+
+  .initialValue {
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+  }
+
+  .appLogo {
+    height: 60px;
+    width: 120px;
+  }
+
+  .icon-input-con {
+    background-color: White;
+    display: flex;
+    flex-direction: row;
+    height: 40px;
+    align-items: center;
+    width: 80%;
+  }
+
+  .logo {
+    height: 20px;
+  }
+
+  .input {
+    outline: none;
+    border: none;
+    width: 70%;
+  }
+  .AddButton {
+    background-color: #0b69ff;
+
+    border: none;
+    color: White;
+    cursor: pointer;
+  }
+  .password-manager {
+    background-color: #454f84;
+    padding: 30px;
+    border-radius: 10px;
+    text-align: end;
+    order: 1;
+  }
+  .count-color {
+    border: 1px solid #b6c3ca;
+    color: white;
+    margin: 5px;
+    padding: 3px;
+    border-radius: 5px;
+  }
+
+  .bottom-container {
+    background-color: #5763a5;
+    border-radius: 10px;
+    padding: 30px;
+  }
+  .checkedPassword {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  .starsAppear {
+    height: 10px;
+  }
+  .empty-image {
+    height: 150px;
+    width: 200px;
+  }
+  .emptystate {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .No-password {
+    font-size: 10px;
+    color: white;
+  }
+  .heading-password {
+    font-size: 15px;
+    color: white;
+  }
+  .searchinput {
+    width: 40%;
+    outline: none;
+    border: none;
+  }
+  .top-heading {
+    text-align: left;
+    font-size: 18px;
+    color: white;
+  }
+
+  .label {
+    font-size: 10px;
+    color: white;
+  }
+  .search-icon-search {
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+
+    align-items: center;
+  }
+  .search-icon {
+    height: 15px;
+    border-right: 1px solid grey;
+  }
+  .showpassword {
+    color: white;
+  }
+  .noPasswords {
+    color: white;
+  }
+}
